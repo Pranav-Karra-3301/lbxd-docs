@@ -1,10 +1,20 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { FiGithub, FiUser, FiFilm } from 'react-icons/fi';
 
 const Header = () => {
   return (
     <header className="w-full bg-zinc-900 border-b-2 border-green-500 py-8 px-4 text-center">
       <div className="max-w-4xl mx-auto">
+        <div className="flex justify-center mb-4">
+          <Image 
+            src="/lbxd.png" 
+            alt="lbxd logo"
+            width={120}
+            height={120}
+            className="rounded-lg"
+          />
+        </div>
         <h1 className="text-4xl font-bold tracking-wide text-green-500">
           lbxd
         </h1>
