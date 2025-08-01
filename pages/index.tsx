@@ -168,7 +168,7 @@ MIT License. Developer: Pranav Karra (pranavkarra.me, letterboxd.com/pranavkarra
               
               <div className="mb-4">
                 <h3 className="font-semibold text-xl mb-2">From Source</h3>
-                <CodeBlock code={sourceCode} />
+                <CodeBlock code={sourceCode} label="From Source" />
               </div>
               
               <div>
