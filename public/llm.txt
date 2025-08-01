@@ -1,0 +1,32 @@
+lbxd
+Rust License: MIT GitHub release
+
+lbxd is a beautiful command-line tool written in Rust that brings Letterboxd to your terminal. View any user's activity, browse collections interactively, and explore movie data with rich terminal displays.
+
+Features:
+- Interactive TUI: Browse movie collections
+- Recent Activity: View movies, ratings, reviews
+- Search: Find titles in user activity
+- Movie Database: Search TMDB
+- Export: JSON/Markdown
+- Config: Persistent settings
+- Caching: Offline access
+- Beautiful Display: ASCII art, colors
+- Fast: Rust performance
+
+Installation:
+- Rust 1.88+, Python 3, modern terminal
+- Homebrew: brew tap pranav-karra-3301/lbxd && brew install lbxd
+- Source: git clone https://github.com/Pranav-Karra-3301/lbxd.git && cd lbxd && cargo install --path . && pip3 install letterboxdpy
+
+Usage:
+lbxd
+lbxd browse username
+lbxd recent username
+lbxd search username "movie"
+lbxd export username --format json --output data.json
+lbxd config show
+
+See full docs at: https://github.com/Pranav-Karra-3301/lbxd
+
+MIT License. Developer: Pranav Karra (pranavkarra.me, letterboxd.com/pranavkarra)
